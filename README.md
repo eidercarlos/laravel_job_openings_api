@@ -24,7 +24,7 @@ With the composer already installed, download the repository:
 git clone https://github.com/eidercarlos/backend-careers.git
 ```
 
-### Instalando
+### Installing
 
 Have Laravel installed on your machine:
 
@@ -44,10 +44,16 @@ Then, from the .env.example file create a new file with the extension .env and c
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=talentify_api_db
+DB_DATABASE=jobopenings_api
 DB_USERNAME=root
 DB_PASSWORD=
+
 ```
+
+
+```
+Don't forget to have a database created with the same name you have in your .env file MySQl DB Connection configuration (jobopenings_api).
+
 
 Don't forget to also generate a KEY for your application.
 

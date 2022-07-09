@@ -23,7 +23,7 @@ class RecruitersTableSeeder extends Seeder
 
         $recruitersNames = ["Admin", "Eider", "Carlos"];
         $recruitersLogin = ["admin", "eider", "carlos"];
-        $recruitersPass = ["talentify1", "talentify2", "talentify3"];
+        $recruitersPass = ["laraveljobsapi", "laraveljobsapi2", "laraveljobsapi3"];
 
         for ($i = 0; $i < count($recruitersNames); $i++) {
             Recruiter::create([
