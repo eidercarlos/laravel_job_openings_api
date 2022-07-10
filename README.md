@@ -50,8 +50,6 @@ DB_PASSWORD=
 
 ```
 
-
-```
 Don't forget to have a database created with the same name you have in your .env file MySQl DB Connection configuration (jobopenings_api).
 
 
